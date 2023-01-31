@@ -1,0 +1,167 @@
+/*固定*/
+
+*{
+    font-family: Helvetica;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(25,25,25);
+    width: 100%;
+    position:fixed;
+    top:0;
+    justify-content: space-between;
+}
+
+.navleft a{
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+
+}
+
+.navbar a:hover{
+    background-color:#555;
+}
+
+
+.navright{
+    display: flex;
+    align-items: center;
+    float: right;
+
+}
+.navright a{
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.rightstart{
+
+    padding: 10px 35px;
+    background-color: orange;
+    margin-right: 100px;
+
+}
+.navRightEntry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navright a:hover{
+    color:orange
+}
+
+.active{
+    background-color: orange;
+}
+
+/*第一*/
+
+
+.h2{
+    font-size: 64px;
+    font-family: Helvetica, sans-serif ;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+
+.getStarted{
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+
+
+
+footer{
+    color: white;
+    background-color: #555;
+    text-align: center;
+}
+
+
+/* 悬浮菜单
+ */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    /* 隐藏 */
+    position: absolute;
+    top: 50px;
+
+    width: 150px;
+    z-index: 10;
+}
+
+
+  
+.dropdown-content li {
+    color: white;
+    background-color: #555;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #555;}
+
+.title{
+    color: white;
+    background-image: url(wavey-fingerprint.png);
+    background-repeat: repeat-y;
+    text-align: center;
+
+}
+
+
+
+.welcome{
+    flex-grow: 1;
+
+
+}
+/* 第二 */
+.second{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    border: white;
+
+
+}
